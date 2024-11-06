@@ -1,0 +1,139 @@
+{
+    "image": "Camera/ 00000290 .jpg",
+    "point_cloud": "LiDAR/ 00000290 .pcd",
+    "meta": {
+        "time": "Night",
+        "environment": "Indoor",
+        "weather": "None",
+        "place": "Large",
+        "city": "Gwangju",
+        "terrain": "Urban",
+        "road_type": "ge 4m",
+        "road_material": "Paved"
+    },
+    "calib": {
+        "intrinsic": [
+            [ 1397.991371 , 0.0 , 960.0 ],
+            [ 0.0 , 1397.991371 , 540.0 ],
+            [ 0.0 , 0.0 , 1.0 ]
+        ],
+        "rotation": [ -0.96517669 , -1.502906215 , 2.560259924 ],
+        "translation": [ 0.13620099 , 1.34389899 , 1.35197656 ]
+    },
+    "bbox2d": [
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 634.19 , 593.47 , 755.3 , 669.6 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 1578.21 , 608.22 , 1658.9 , 656.8 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": false,
+            "bbox": [ 1606.7 , 648.26 , 1920.0 , 951.4 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 1424.3 , 568.21 , 1920.0 , 845.1 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": false,
+            "bbox": [ 0.0 , 682.38 , 40.3 , 822.8 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 0.0 , 594.46 , 245.0 , 817.5 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 0.0 , 552.47 , 352.6 , 766.4 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 0.0 , 523.6 , 465.5 , 751.9 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 303.66 , 568.21 , 518.0 , 709.9 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 398.14 , 591.83 , 678.5 , 694.2 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 1085.8 , 595.77 , 1435.25 , 716.5 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 1029.3 , 580.02 , 1317.14 , 692.9 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 957.1 , 604.96 , 1080.93 , 664.0 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 525.43 , 586.59 , 699.3 , 662.7 ],
+            "status": "Parked"
+        }
+    ],
+    "segmentation": [
+        {
+            "name": "Driveable Space",
+            "polygon": [
+                [ 1778.92 , 993.39 ],
+                [ 1374.08 , 817.15 ],
+                [ 1447.44 , 815.84 ],
+                [ 1443.63 , 807.05 ],
+                [ 1436.15 , 800.62 ],
+                [ 1429.72 , 793.01 ],
+                [ 1424.73 , 784.87 ],
+                [ 1420.93 , 775.29 ],
+                [ 1419.62 , 765.84 ],
+                [ 1419.62 , 755.74 ],
+                [ 1420.93 , 746.29 ],
+                [ 1425.39 , 737.37 ],
+                [ 1430.38 , 729.1 ],
+                [ 1110.84 , 724.77 ],
+                [ 911.5 , 639.86 ],
+                [ 816.5 , 638.68 ],
+                [ 0.66 , 911.11 ],
+                [ 2.49 , 990.37 ],
+                [ 317.83 , 970.43 ],
+                [ 761.64 , 950.35 ],
+                [ 1070.55 , 951.27 ],
+                [ 1359.65 , 961.9 ]
+            ]
+        }
+    ],
+    "bbox3d": []
+}
