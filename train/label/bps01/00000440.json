@@ -1,0 +1,108 @@
+{
+    "image": "Camera/ 00000440 .jpg",
+    "point_cloud": "LiDAR/ 00000440 .pcd",
+    "meta": {
+        "time": "Night",
+        "environment": "Indoor",
+        "weather": "None",
+        "place": "Large",
+        "city": "Gwangju",
+        "terrain": "Urban",
+        "road_type": "ge 4m",
+        "road_material": "Paved"
+    },
+    "calib": {
+        "intrinsic": [
+            [ 1397.991371 , 0.0 , 960.0 ],
+            [ 0.0 , 1397.991371 , 540.0 ],
+            [ 0.0 , 0.0 , 1.0 ]
+        ],
+        "rotation": [ -0.96517669 , -1.502906215 , 2.560259924 ],
+        "translation": [ 0.13620099 , 1.34389899 , 1.35197656 ]
+    },
+    "bbox2d": [
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 1059.7 , 633.2 , 1151.59 , 702.1 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 0.0 , 534.8 , 306.5 , 793.2 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 240.88 , 580.71 , 475.8 , 756.5 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 358.98 , 596.46 , 523.0 , 731.6 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 491.52 , 604.33 , 642.4 , 698.8 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 1450.8 , 564.96 , 1920.0 , 868.0 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Other Vehicle",
+            "occluded": true,
+            "bbox": [ 1200.1 , 558.4 , 1301.9 , 723.7 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Bicycle",
+            "occluded": false,
+            "bbox": [ 1004.9 , 620.75 , 1033.2 , 680.5 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Bicycle",
+            "occluded": false,
+            "bbox": [ 1023.27 , 619.44 , 1051.57 , 680.6 ],
+            "status": "Parked"
+        }
+    ],
+    "segmentation": [
+        {
+            "name": "Driveable Space",
+            "polygon": [
+                [ 1719.86 , 993.39 ],
+                [ 1330.12 , 814.92 ],
+                [ 1328.81 , 761.12 ],
+                [ 1299.94 , 750.62 ],
+                [ 1300.72 , 731.07 ],
+                [ 1157.82 , 728.44 ],
+                [ 1147.84 , 719.91 ],
+                [ 1146.53 , 702.2 ],
+                [ 1064.91 , 702.2 ],
+                [ 1047.85 , 685.14 ],
+                [ 640.26 , 668.08 ],
+                [ 640.91 , 683.83 ],
+                [ 693.54 , 686.32 ],
+                [ 692.88 , 690.78 ],
+                [ 4.33 , 852.19 ],
+                [ 0.52 , 989.45 ],
+                [ 269.41 , 971.21 ],
+                [ 439.74 , 962.29 ],
+                [ 828.96 , 949.04 ],
+                [ 1080.13 , 951.53 ],
+                [ 1390.22 , 962.29 ]
+            ]
+        }
+    ],
+    "bbox3d": []
+}
