@@ -1,0 +1,121 @@
+{
+    "image": "Camera/ 00000035 .jpg",
+    "point_cloud": "LiDAR/ 00000035 .pcd",
+    "meta": {
+        "time": "Night",
+        "environment": "Indoor",
+        "weather": "None",
+        "place": "Large",
+        "city": "Gwangju",
+        "terrain": "Urban",
+        "road_type": "ge 4m",
+        "road_material": "Paved"
+    },
+    "calib": {
+        "intrinsic": [
+            [ 1397.991371 , 0.0 , 960.0 ],
+            [ 0.0 , 1397.991371 , 540.0 ],
+            [ 0.0 , 0.0 , 1.0 ]
+        ],
+        "rotation": [ -0.96517669 , -1.502906215 , 2.560259924 ],
+        "translation": [ 0.13620099 , 1.34389899 , 1.35197656 ]
+    },
+    "bbox2d": [
+        {
+            "name": "Car",
+            "occluded": false,
+            "bbox": [ 0.0 , 588.9 , 80.79 , 693.0 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 830.54 , 587.6 , 1079.68 , 705.3 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 62.28 , 593.9 , 294.79 , 688.4 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Traffic Pole",
+            "occluded": false,
+            "bbox": [ 528.2 , 633.93 , 539.8 , 682.7 ]
+        },
+        {
+            "name": "Traffic Pole",
+            "occluded": false,
+            "bbox": [ 754.4 , 648.23 , 774.4 , 716.2 ]
+        },
+        {
+            "name": "Traffic Pole",
+            "occluded": false,
+            "bbox": [ 838.6 , 653.62 , 865.94 , 732.0 ]
+        },
+        {
+            "name": "Car",
+            "occluded": false,
+            "bbox": [ 1706.03 , 575.1 , 1920.0 , 785.89 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 1594.42 , 581.28 , 1737.72 , 741.1 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Other Vehicle",
+            "occluded": true,
+            "bbox": [ 1042.38 , 515.55 , 1658.49 , 790.7 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 1095.98 , 578.3 , 1265.46 , 632.74 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 608.27 , 594.58 , 830.5 , 683.95 ],
+            "status": "Not Parked"
+        }
+    ],
+    "segmentation": [
+        {
+            "name": "Driveable Space",
+            "polygon": [
+                [ 1.26 , 991.58 ],
+                [ 226.11 , 973.89 ],
+                [ 557.05 , 958.74 ],
+                [ 832.42 , 956.21 ],
+                [ 1143.16 , 957.47 ],
+                [ 1480.42 , 972.63 ],
+                [ 1767.41 , 991.45 ],
+                [ 1920.0 , 1000.28 ],
+                [ 1920.0 , 797.07 ],
+                [ 1590.57 , 827.24 ],
+                [ 1380.88 , 841.14 ],
+                [ 926.4 , 751.58 ],
+                [ 678.82 , 702.32 ],
+                [ 678.9 , 693.95 ],
+                [ 679.95 , 677.38 ],
+                [ 655.28 , 675.62 ],
+                [ 653.16 , 682.32 ],
+                [ 647.52 , 686.55 ],
+                [ 638.0 , 686.19 ],
+                [ 633.07 , 683.02 ],
+                [ 628.13 , 678.79 ],
+                [ 611.56 , 677.73 ],
+                [ 330.82 , 688.67 ],
+                [ 54.69 , 699.66 ],
+                [ 1.52 , 703.07 ]
+            ]
+        }
+    ],
+    "bbox3d": []
+}
