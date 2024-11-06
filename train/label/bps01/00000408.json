@@ -1,0 +1,96 @@
+{
+    "image": "Camera/ 00000408 .jpg",
+    "point_cloud": "LiDAR/ 00000408 .pcd",
+    "meta": {
+        "time": "Night",
+        "environment": "Indoor",
+        "weather": "None",
+        "place": "Large",
+        "city": "Gwangju",
+        "terrain": "Urban",
+        "road_type": "ge 4m",
+        "road_material": "Paved"
+    },
+    "calib": {
+        "intrinsic": [
+            [ 1397.991371 , 0.0 , 960.0 ],
+            [ 0.0 , 1397.991371 , 540.0 ],
+            [ 0.0 , 0.0 , 1.0 ]
+        ],
+        "rotation": [ -0.96517669 , -1.502906215 , 2.560259924 ],
+        "translation": [ 0.13620099 , 1.34389899 , 1.35197656 ]
+    },
+    "bbox2d": [
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 798.77 , 572.86 , 1018.9 , 698.7 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 1431.3 , 634.54 , 1504.42 , 689.5 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 1076.95 , 620.77 , 1121.26 , 681.0 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 514.0 , 567.61 , 890.3 , 795.8 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 0.0 , 528.24 , 652.8 , 987.4 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 1654.4 , 609.6 , 1867.7 , 725.0 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Other Vehicle",
+            "occluded": true,
+            "bbox": [ 1536.3 , 592.55 , 1610.71 , 701.4 ],
+            "status": "Parked"
+        }
+    ],
+    "segmentation": [
+        {
+            "name": "Driveable Space",
+            "polygon": [
+                [ 1919.89 , 1002.21 ],
+                [ 1918.98 , 797.17 ],
+                [ 1906.22 , 798.08 ],
+                [ 1865.21 , 786.23 ],
+                [ 1605.49 , 717.89 ],
+                [ 1607.31 , 700.57 ],
+                [ 1546.26 , 700.57 ],
+                [ 1533.5 , 695.1 ],
+                [ 1517.1 , 696.93 ],
+                [ 1499.78 , 694.19 ],
+                [ 1497.96 , 688.72 ],
+                [ 1446.01 , 689.64 ],
+                [ 1425.05 , 676.88 ],
+                [ 1171.71 , 666.85 ],
+                [ 552.3 , 959.4 ],
+                [ 586.66 , 956.65 ],
+                [ 777.12 , 948.44 ],
+                [ 1004.03 , 951.18 ],
+                [ 1291.09 , 957.56 ],
+                [ 1577.24 , 974.87 ],
+                [ 1782.28 , 992.19 ]
+            ]
+        }
+    ],
+    "bbox3d": []
+}

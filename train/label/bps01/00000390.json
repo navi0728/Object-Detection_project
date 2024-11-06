@@ -1,0 +1,172 @@
+{
+    "image": "Camera/ 00000390 .jpg",
+    "point_cloud": "LiDAR/ 00000390 .pcd",
+    "meta": {
+        "time": "Night",
+        "environment": "Indoor",
+        "weather": "None",
+        "place": "Large",
+        "city": "Gwangju",
+        "terrain": "Urban",
+        "road_type": "ge 4m",
+        "road_material": "Paved"
+    },
+    "calib": {
+        "intrinsic": [
+            [ 1397.991371 , 0.0 , 960.0 ],
+            [ 0.0 , 1397.991371 , 540.0 ],
+            [ 0.0 , 0.0 , 1.0 ]
+        ],
+        "rotation": [ -0.96517669 , -1.502906215 , 2.560259924 ],
+        "translation": [ 0.13620099 , 1.34389899 , 1.35197656 ]
+    },
+    "bbox2d": [
+        {
+            "name": "Parking Block",
+            "occluded": false,
+            "bbox": [ 1555.34 , 833.68 , 1755.7 , 865.7 ]
+        },
+        {
+            "name": "Parking Block",
+            "occluded": false,
+            "bbox": [ 1473.97 , 698.51 , 1527.34 , 710.87 ]
+        },
+        {
+            "name": "Car",
+            "occluded": false,
+            "bbox": [ 1908.87 , 672.92 , 1920.0 , 748.89 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 0.0 , 569.61 , 271.6 , 795.1 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 216.79 , 587.98 , 442.1 , 744.0 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 388.7 , 578.8 , 568.1 , 696.7 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 1601.2 , 612.92 , 1914.49 , 724.3 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 1496.3 , 614.23 , 1631.04 , 692.8 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Parking Block",
+            "occluded": false,
+            "bbox": [ 1202.53 , 670.57 , 1241.04 , 677.04 ]
+        },
+        {
+            "name": "Parking Block",
+            "occluded": false,
+            "bbox": [ 1212.08 , 690.64 , 1264.22 , 699.16 ]
+        },
+        {
+            "name": "Parking Block",
+            "occluded": false,
+            "bbox": [ 1174.78 , 695.89 , 1228.14 , 708.24 ]
+        },
+        {
+            "name": "Other Vehicle",
+            "occluded": true,
+            "bbox": [ 1244.3 , 540.8 , 1503.75 , 703.3 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 625.52 , 615.53 , 669.83 , 675.75 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 941.28 , 634.45 , 978.72 , 672.58 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 1050.08 , 608.98 , 1199.3 , 696.7 ],
+            "status": "Parked"
+        }
+    ],
+    "segmentation": [
+        {
+            "name": "Parking Space",
+            "size": "Normal",
+            "pattern": "Perpendicular",
+            "polygon": [
+                [ 1656.88 , 783.43 ],
+                [ 1919.33 , 841.17 ],
+                [ 1920.0 , 814.34 ],
+                [ 1920.0 , 788.56 ],
+                [ 1864.21 , 778.18 ]
+            ]
+        },
+        {
+            "name": "Driveable Space",
+            "polygon": [
+                [ 1918.02 , 1006.51 ],
+                [ 1376.0 , 807.6 ],
+                [ 1294.7 , 809.0 ],
+                [ 1260.57 , 789.99 ],
+                [ 1260.5 , 774.9 ],
+                [ 1919.2 , 773.72 ],
+                [ 1918.54 , 759.81 ],
+                [ 1920.0 , 753.29 ],
+                [ 1920.0 , 750.08 ],
+                [ 1916.7 , 744.06 ],
+                [ 1909.09 , 740.25 ],
+                [ 1908.44 , 733.95 ],
+                [ 1908.44 , 728.18 ],
+                [ 1733.77 , 724.37 ],
+                [ 1695.19 , 726.34 ],
+                [ 1667.9 , 721.88 ],
+                [ 1089.58 , 722.54 ],
+                [ 944.57 , 664.27 ],
+                [ 739.6 , 661.78 ],
+                [ 158.0 , 804.16 ],
+                [ 66.79 , 804.16 ],
+                [ 0.0 , 819.85 ],
+                [ 0.0 , 891.82 ],
+                [ 0.39 , 999.69 ],
+                [ 217.44 , 973.05 ],
+                [ 490.26 , 962.95 ],
+                [ 750.36 , 954.15 ],
+                [ 1025.67 , 952.84 ],
+                [ 1409.77 , 964.91 ]
+            ]
+        },
+        {
+            "name": "Parking Space",
+            "size": "Normal",
+            "pattern": "Perpendicular",
+            "polygon": [
+                [ 1377.36 , 782.11 ],
+                [ 1386.55 , 801.8 ],
+                [ 1662.12 , 892.35 ],
+                [ 1920.0 , 891.04 ],
+                [ 1920.0 , 856.19 ],
+                [ 1580.76 , 780.8 ]
+            ]
+        }
+    ],
+    "bbox3d": []
+}
