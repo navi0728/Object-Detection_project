@@ -1,0 +1,70 @@
+{
+    "image": "Camera/ 00000243 .jpg",
+    "point_cloud": "LiDAR/ 00000243 .pcd",
+    "meta": {
+        "time": "Night",
+        "environment": "Indoor",
+        "weather": "None",
+        "place": "Large",
+        "city": "Gwangju",
+        "terrain": "Urban",
+        "road_type": "ge 4m",
+        "road_material": "Paved"
+    },
+    "calib": {
+        "intrinsic": [
+            [ 1397.991371 , 0.0 , 960.0 ],
+            [ 0.0 , 1397.991371 , 540.0 ],
+            [ 0.0 , 0.0 , 1.0 ]
+        ],
+        "rotation": [ -0.96517669 , -1.502906215 , 2.560259924 ],
+        "translation": [ 0.13620099 , 1.34389899 , 1.35197656 ]
+    },
+    "bbox2d": [
+        {
+            "name": "Car",
+            "occluded": false,
+            "bbox": [ 1808.13 , 602.08 , 1920.0 , 801.87 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 909.58 , 555.7 , 1451.9 , 764.82 ],
+            "status": "Parked"
+        }
+    ],
+    "segmentation": [
+        {
+            "name": "Driveable Space",
+            "polygon": [
+                [ 0.0 , 730.1 ],
+                [ 871.58 , 741.47 ],
+                [ 901.89 , 771.79 ],
+                [ 956.21 , 780.63 ],
+                [ 1264.42 , 880.42 ],
+                [ 1701.47 , 903.16 ],
+                [ 1920.0 , 906.9 ],
+                [ 1919.49 , 1005.09 ],
+                [ 1370.02 , 965.94 ],
+                [ 812.97 , 953.31 ],
+                [ 376.55 , 966.32 ],
+                [ 1.39 , 996.63 ]
+            ]
+        },
+        {
+            "name": "Parking Space",
+            "size": "Normal",
+            "pattern": "Perpendicular",
+            "polygon": [
+                [ 1453.39 , 775.96 ],
+                [ 1603.72 , 777.66 ],
+                [ 1808.3 , 797.44 ],
+                [ 1920.0 , 820.43 ],
+                [ 1920.0 , 896.29 ],
+                [ 1821.87 , 895.21 ]
+            ]
+        }
+    ],
+    "bbox3d": []
+}

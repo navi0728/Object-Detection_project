@@ -1,0 +1,75 @@
+{
+    "image": "Camera/ 00000241 .jpg",
+    "point_cloud": "LiDAR/ 00000241 .pcd",
+    "meta": {
+        "time": "Night",
+        "environment": "Indoor",
+        "weather": "None",
+        "place": "Large",
+        "city": "Gwangju",
+        "terrain": "Urban",
+        "road_type": "ge 4m",
+        "road_material": "Paved"
+    },
+    "calib": {
+        "intrinsic": [
+            [ 1397.991371 , 0.0 , 960.0 ],
+            [ 0.0 , 1397.991371 , 540.0 ],
+            [ 0.0 , 0.0 , 1.0 ]
+        ],
+        "rotation": [ -0.96517669 , -1.502906215 , 2.560259924 ],
+        "translation": [ 0.13620099 , 1.34389899 , 1.35197656 ]
+    },
+    "bbox2d": [
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 879.49 , 557.81 , 1381.3 , 755.4 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": false,
+            "bbox": [ 1702.38 , 579.4 , 1920.0 , 785.6 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Parking Block",
+            "occluded": false,
+            "bbox": [ 1652.47 , 758.7 , 1680.3 , 779.2 ]
+        }
+    ],
+    "segmentation": [
+        {
+            "name": "Driveable Space",
+            "polygon": [
+                [ 0.96 , 734.17 ],
+                [ 839.49 , 734.17 ],
+                [ 870.41 , 761.46 ],
+                [ 923.16 , 772.37 ],
+                [ 1174.18 , 845.13 ],
+                [ 1552.52 , 863.32 ],
+                [ 1919.94 , 872.41 ],
+                [ 1920.0 , 876.36 ],
+                [ 1920.0 , 1001.45 ],
+                [ 1427.01 , 970.64 ],
+                [ 857.68 , 954.27 ],
+                [ 353.83 , 967.0 ],
+                [ 0.95 , 997.92 ]
+            ]
+        },
+        {
+            "name": "Parking Space",
+            "size": "Normal",
+            "pattern": "Perpendicular",
+            "polygon": [
+                [ 1378.57 , 763.7 ],
+                [ 1658.9 , 772.7 ],
+                [ 1920.0 , 827.92 ],
+                [ 1920.0 , 862.51 ],
+                [ 1657.75 , 857.51 ]
+            ]
+        }
+    ],
+    "bbox3d": []
+}
