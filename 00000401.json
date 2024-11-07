@@ -1,0 +1,63 @@
+{
+    "image": "Camera/ 00000401 .jpg",
+    "point_cloud": "LiDAR/ 00000401 .pcd",
+    "meta": {
+        "time": "Day",
+        "environment": "Indoor",
+        "weather": "None",
+        "place": "Large",
+        "city": "Gwangju",
+        "terrain": "Urban",
+        "road_type": "ge 4m",
+        "road_material": "Paved"
+    },
+    "calib": {
+        "intrinsic": [
+            [ 1397.991371 , 0.0 , 960.0 ],
+            [ 0.0 , 1397.991371 , 540.0 ],
+            [ 0.0 , 0.0 , 1.0 ]
+        ],
+        "rotation": [ -0.96517669 , -1.502906215 , 2.560259924 ],
+        "translation": [ 0.13620099 , 1.34389899 , 1.35197656 ]
+    },
+    "bbox2d": [
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 1083.94 , 555.35 , 1654.6 , 771.69 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 1562.61 , 703.55 , 1884.57 , 1001.66 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 1286.65 , 562.16 , 1881.16 , 914.78 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": false,
+            "bbox": [ 0.0 , 636.95 , 187.91 , 793.84 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": false,
+            "bbox": [ 257.75 , 580.73 , 571.19 , 741.03 ],
+            "status": "Parked"
+        },
+        {
+            "name": "Car",
+            "occluded": true,
+            "bbox": [ 540.76 , 601.51 , 718.34 , 675.47 ],
+            "status": "Parked"
+        }
+    ],
+    "segmentation": [],
+    "bbox3d": []
+}
