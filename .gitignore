@@ -1,29 +1,34 @@
 # 데이터셋 제외
-/merge_dataset_copy/**/images/*.jpg
-/merge_dataset_copy/**/labels/*.json
-/merge_dataset_copy/**/labels/*.txt
-/merge_dataset/data.yaml
+/**/**/images/*.jpg
+/**/**/labels/*.json
+/**/**/labels/*.txt
+/**/data.yaml
 
 # 다른 데이터셋 폴더 제외
 /wsl_venv
-/merge_dataset
 /data_aihub_30
 /data_roboflow
+/merge_dataset_copy
+/088ai_hub_data
+/data_occupied_30
+/data_30
 /.vscode
 yolo11n.pt
+
+# 전처리 폴더 일부 .py 파일 제외
+/Preprocess_datasets/convert_cnames_to_empty.py
+/Preprocess_datasets/convert_json_to_txt.py
+/Preprocess_datasets/filter_json_removal.py
+/Preprocess_datasets/filter_JSON.py
+/Preprocess_datasets/handle_missing_labels.py
+/Preprocess_datasets/json_to_text.py
+/Preprocess_datasets/normalize_bbox.py
+/Preprocess_datasets/remove_json.py
+/Preprocess_datasets/resize_bbox.py
+/Preprocess_datasets/resize_images.py
 
 # yolo 결과값 제외
 /runs
 
-#그 외 .py 제외
-check_EDA_class.py
-chekc_EDA_parking_space.py
-convert_json_to_txt.py
-filter_json_removal.py
-handle_missing_labels.py
-json_to_text.py
-normalize_bbox.py
-remove_json.py
-resize_images.py
-resize_bbox.py
-resized_parking_image.jpg
+# 그 외 파일
+select_30_dataset.py
