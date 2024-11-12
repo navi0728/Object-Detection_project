@@ -2,6 +2,7 @@
 /merge_dataset_copy/**/images/*.jpg
 /merge_dataset_copy/**/labels/*.json
 /merge_dataset_copy/**/labels/*.txt
+/merge_dataset/data.yaml
 
 # 다른 데이터셋 폴더 제외
 /wsl_venv
