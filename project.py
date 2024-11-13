@@ -13,13 +13,15 @@ import cv2
 import json
 import os
 import glob
+import shutil
+from google.colab import drive
 
 # 폴더 경로 설정
-base_folder = "/content/split_dataset30/validation"  # 기본 작업 폴더 경로
-image_folder = os.path.join(base_folder, "images")  # 원본 이미지 파일 폴더 경로
-json_folder = os.path.join(base_folder, "labels")  # 원본 JSON 파일 폴더 경로
-output_image_folder = os.path.join(base_folder, "resized_images")  # 리사이즈된 이미지 저장 폴더 경로
-output_txt_folder = os.path.join(base_folder, "yolo_labels")  # YOLO 형식의 레이블 텍스트 파일 저장 폴더 경로
+base_folder = "/content/split_dataset30/validation"  
+image_folder = os.path.join(base_folder, "images") 
+json_folder = os.path.join(base_folder, "labels") 
+output_image_folder = os.path.join(base_folder, "resized_images") 
+output_txt_folder = os.path.join(base_folder, "yolo_labels") 
 
 # 출력 폴더가 없으면 생성
 os.makedirs(output_image_folder, exist_ok=True)
@@ -49,7 +51,7 @@ for image_path in glob.glob(os.path.join(image_folder, "*.jpg")):
         with open(json_path, "r") as f:
             data = json.load(f)
 
-        # YOLO 형식의 레이블 텍스트 작성 (리사이즈된 이미지 기준)
+        # YOLO 형식의 레이블 텍스트 작성
         yolo_labels = []
 
         # segmentation이 있는 경우 처리
@@ -76,7 +78,7 @@ for image_path in glob.glob(os.path.join(image_folder, "*.jpg")):
                     bbox_width = (x_max_resized - x_min_resized) / 640
                     bbox_height = (y_max_resized - y_min_resized) / 640
 
-                    # 클래스 ID는 예시로 0 사용 (YOLO는 클래스 ID 필요)
+                    # 클래스 ID는 예시로 0 사용 
                     class_id = 0
                     yolo_labels.append(
                         f"{class_id} {center_x:.6f} {center_y:.6f} {bbox_width:.6f} {bbox_height:.6f}"
@@ -128,15 +130,14 @@ for image_path in glob.glob(os.path.join(image_folder, "*.jpg")):
 
 !unzip /content/drive/MyDrive/project/pamugas.v1i.yolov5pytorch.zip
 
-import os
-import shutil
+
 
 # 이미지 폴더 경로 설정
 source_folders = [
-    "/content/split_dataset30/train/yolo_labels",  # 첫 번째 이미지 폴더
-    "/content/train/labels"  # 두 번째 이미지 폴더
+    "/content/split_dataset30/train/yolo_labels",  
+    "/content/train/labels"  
 ]
-destination_folder = "/content/train_merged_labels"  # 병합된 이미지를 저장할 폴더
+destination_folder = "/content/train_merged_labels" 
 
 # 대상 폴더가 없으면 생성
 os.makedirs(destination_folder, exist_ok=True)
@@ -166,30 +167,9 @@ print("이미지 병합이 완료되었습니다.")
 
 !python train.py --img 640 --batch 16 --epochs 100 --data /content/data.yaml --weights yolov5n.pt --name custom_yolov5n
 
-from google.colab import drive
-import shutil
 
 # 드라이브에 저장할 폴더 경로 설정
-drive_folder = '/content/drive/MyDrive/yolov5_models'  # 원하는 폴더 경로로 수정
-
-# best.pt 파일 경로
-best_model_path = '/content/yolov5/runs/train/custom_yolov5n8/weights/best.pt'
-
-# 파일이 존재하는지 확인
-if os.path.exists(best_model_path):
-    # 폴더가 없다면 생성
-    os.makedirs(drive_folder, exist_ok=True)
-
-    # best.pt를 Google Drive로 이동
-    shutil.copy(best_model_path, os.path.join(drive_folder, 'best.pt'))
-    print(f"Model saved to {drive_folder}/best.pt")
-else:
-    print(f"Error: {best_model_path} not found.")
-
-!python val.py --weights /content/yolov5/runs/train/custom_yolov5n8/weights/best.pt --data  /content/data.yaml --img 640
-
-#resize
-import cv2
+drive_folder = '/content/drive/MyDrive/yolov5_m측
 image = "/content/image7.png"
 image = cv2.imread(image)
 image = cv2.resize(image, (640, 640))
