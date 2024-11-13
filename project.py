@@ -176,4 +176,4 @@ image = cv2.resize(image, (640, 640))
 cv2.imwrite("resized_image.png", image)
 image.shape
 
-!python detect.py --weights /content/drive/MyDrive/yolov5_models/best.pt --source /content/yolov5/resized_image.png --img 640 --conf 0.07
+!python detect.py --weights /content/drive/MyDrive/yolov5_models/best.pt --source /content/yolov5/resized_image.png --img 640
