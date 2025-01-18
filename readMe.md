@@ -1,5 +1,7 @@
 # [Autonomous Vehicle] 🚗 Parking Occupation Detection
 
+[Presentation](https://drive.google.com/file/d/1IfH9DFm3zepYMBG8z6Flk67uF-yshjzo/view?usp=sharing)
+
 ## Getting Started
 
 ## Prerequisites
